@@ -12,6 +12,9 @@ This repository is the public thought-notes branch of the PEF system. It is not 
 2. [The Pi Anchor and Embodied Intelligence: How AI Can Escape the Gravity of Human Semantics](essays/02-the-pi-anchor.md)
    - Online reading: https://banbanry.github.io/pef-philosophy/essay-02.html
    - Hook: Pi is not a number. It is the first constraint that does not need humans to certify it.
+3. [The Arrogance of the Pi Anchor: A Bridge That Collapsed Twice](essays/03-arrogance-of-pi-anchor.md)
+   - Online reading: https://banbanry.github.io/pef-philosophy/essay-03.html
+   - Hook: A single anchor can kill the system it is supposed to save.
 
 ## What this series is asking
 
