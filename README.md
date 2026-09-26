@@ -7,8 +7,10 @@ This repository is the public thought-notes branch of the PEF system. It is not 
 ## Reading order
 
 1. [The Root of AI: The Projection Chain of Cognition](essays/01-the-root-of-ai.md)
+   - Online reading: https://banbanry.github.io/pef-philosophy/essay-01.html
    - Hook: AI has never received a photon. It only reads the shadow humans have already cut from the world.
 2. [The Pi Anchor and Embodied Intelligence: How AI Can Escape the Gravity of Human Semantics](essays/02-the-pi-anchor.md)
+   - Online reading: https://banbanry.github.io/pef-philosophy/essay-02.html
    - Hook: Pi is not a number. It is the first constraint that does not need humans to certify it.
 
 ## What this series is asking
@@ -21,6 +23,10 @@ This repository is the public thought-notes branch of the PEF system. It is not 
 
 - GitHub Pages: https://banbanry.github.io/pef-philosophy/
 - GitHub repository: https://github.com/banbanry/pef-philosophy
+
+## Style
+
+The site uses a unified gray background, gold borders, and golden-ratio layout. Shared styles live in `docs/assets/style.css`. New essays should be added as numbered Markdown files in `essays/`, then generated into styled HTML pages under `docs/`.
 
 ## License / notes
 
