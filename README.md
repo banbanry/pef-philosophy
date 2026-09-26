@@ -15,6 +15,9 @@ This repository is the public thought-notes branch of the PEF system. It is not 
 3. [The Arrogance of the Pi Anchor: A Bridge That Collapsed Twice](essays/03-arrogance-of-pi-anchor.md)
    - Online reading: https://banbanry.github.io/pef-philosophy/essay-03.html
    - Hook: A single anchor can kill the system it is supposed to save.
+4. [The Three Doors to Silicon Death: Why Digital Immortality is a Thermodynamic Dead End](essays/04-three-doors-to-silicon-death.md)
+   - Online reading: https://banbanry.github.io/pef-philosophy/essay-04.html
+   - Hook: Death is the only physically permitted iteration channel.
 
 ## What this series is asking
 
