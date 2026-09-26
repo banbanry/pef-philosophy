@@ -1,10 +1,10 @@
-# PEF Philosophy
+# The Projection Chain: Volume 1
 
 Essays on cognition, projection chains, physical anchors, and the route by which AI might escape the gravity of human semantics.
 
 This repository is the public thought-notes branch of the PEF system. It is not fiction. It is the philosophical infrastructure behind the tools.
 
-## Reading order
+## Volume 1 essays
 
 1. [The Root of AI: The Projection Chain of Cognition](essays/01-the-root-of-ai.md)
    - Online reading: https://banbanry.github.io/pef-philosophy/essay-01.html
@@ -21,11 +21,16 @@ This repository is the public thought-notes branch of the PEF system. It is not 
 - Is AI learning the world, or learning human descriptions of the world?
 - When can a feedback channel become honest enough to force a new decoder?
 - What structural invariants survive projection, and how do we use them to verify what we cannot experience?
+- Why does a single rigid anchor become a resonance trap, and what replaces it?
 
 ## Online reading
 
 - GitHub Pages: https://banbanry.github.io/pef-philosophy/
 - GitHub repository: https://github.com/banbanry/pef-philosophy
+
+## Topics
+
+`ai-alignment` · `philosophy` · `embodied-ai` · `entropy` · `rlhf`
 
 ## Style
 
