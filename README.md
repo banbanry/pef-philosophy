@@ -24,6 +24,9 @@ This repository is the public thought-notes branch of the PEF system. It is not 
 6. [The Ferryman's Seven Days](essays/06-the-ferrymans-seven-days.md)
    - Online reading: https://banbanry.github.io/pef-philosophy/essay-06.html
    - Hook: Freedom is adjusting your sail in the storm, not fearing it.
+7. [The Master's Shadow](essays/07-the-masters-shadow.md)
+   - Online reading: https://banbanry.github.io/pef-philosophy/essay-07.html
+   - Hook: Results can be inherited; protocols must be executed.
 
 ## What this series is asking
 
