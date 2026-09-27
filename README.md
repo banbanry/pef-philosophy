@@ -18,7 +18,7 @@ This repository is the public thought-notes branch of the PEF system. It is not 
 4. [The Three Doors to Silicon Death: Why Digital Immortality is a Thermodynamic Dead End](essays/04-three-doors-to-silicon-death.md)
    - Online reading: https://banbanry.github.io/pef-philosophy/essay-04.html
    - Hook: Death is the only physically permitted iteration channel.
-5. [The PEF Architecture: Subject, Variable, Result](essays/05-pef-architecture-subject-variable-result.md)
+6. [The PEF Architecture: Subject, Variable, Result](essays/05-pef-architecture-subject-variable-result.md)
    - Online reading: https://banbanry.github.io/pef-philosophy/essay-05.html
    - Hook: Handoff is PEF's action at the boundary; every token you type is a miracle.
 
