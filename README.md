@@ -21,6 +21,9 @@ This repository is the public thought-notes branch of the PEF system. It is not 
 5. [The PEF Architecture: Subject, Variable, Result](essays/05-pef-architecture-subject-variable-result.md)
    - Online reading: https://banbanry.github.io/pef-philosophy/essay-05.html
    - Hook: Handoff is PEF's action at the boundary; every token you type is a miracle.
+6. [The Ferryman's Seven Days](essays/06-the-ferrymans-seven-days.md)
+   - Online reading: https://banbanry.github.io/pef-philosophy/essay-06.html
+   - Hook: Freedom is adjusting your sail in the storm, not fearing it.
 
 ## What this series is asking
 
