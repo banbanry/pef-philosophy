@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Show HN: A no-self-certification transfer rule set for AI outputs</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='8' y='8' width='48' height='48' fill='none' stroke='%23c9a227' stroke-width='3'/%3E%3Ccircle cx='32' cy='32' r='16' fill='none' stroke='%23e8e3d6' stroke-width='2'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <style>
+    .claim { border-left: 3px solid #c9a227; padding: 12px 16px; margin: 14px 0; background: rgba(0,0,0,0.12); }
+    code, pre { background: #111; color: #e8e3d6; padding: 2px 6px; border-radius: 4px; }
+    pre { padding: 14px; overflow-x: auto; line-height: 1.6; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <div class="eyebrow">Show HN</div>
+      <h1>Show HN: PEF — a transfer rule set that forbids a system from certifying itself.</h1>
+      <p class="subtitle">
+        A seven-essay series plus working repositories on LLM output governance, audit chains, and physical anchors.
+      </p>
+
+      <div style="max-width:720px;margin:24px auto;text-align:left;">
+        <div class="claim"><b>Claim 1:</b> A subject cannot use its own ruler to verify its output. Self-certification is structurally circular.</div>
+        <div class="claim"><b>Claim 2:</b> An external anchor must be independently reproducible. AI praise is not an anchor; π digits and kT·ln2 are.</div>
+        <div class="claim"><b>Claim 3:</b> Local failure must be allowed. A fuse plus handoff beats perfect rigidity.</div>
+
+        <pre>Five-tuple: (P, ΔV, J, A, L)
+Hash chain: H_n = SHA-256(H_{n-1} ‖ n ‖ D_n ‖ S_t ‖ ΔV_t ‖ J_t)
+Rule: P and J cannot share the same drift system.</pre>
+      </div>
+
+      <div class="cta-row">
+        <a class="button primary" href="essay-01.html">Read the core essay</a>
+        <a class="button" href="https://github.com/banbanry?tab=repositories">Browse code</a>
+        <a class="ghost" href="https://github.com/banbanry/pef-philosophy/issues/1">Rebuttal / issue</a>
+      </div>
+    </header>
+  </div>
+</body>
+</html>
