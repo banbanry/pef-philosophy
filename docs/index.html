@@ -18,6 +18,7 @@
       <div class="cta-row">
         <a class="button primary" href="https://github.com/banbanry/pef-philosophy">View on GitHub</a>
         <a class="button" href="#reading-order">Reading order</a>
+        <a class="button" href="cn.html">中文合集</a>
       </div>
     </header>
 
@@ -149,5 +150,14 @@
       pef-philosophy · public thought-notes branch of PEF · Comments and counter-arguments welcome on GitHub.
     </footer>
   </div>
+<script>
+(function(){
+  var l = (navigator.language || 'en').toLowerCase();
+  if (l.indexOf('zh') === 0 && !localStorage.getItem('langPref')) {
+    var a = document.querySelector('a[href="cn.html"]');
+    if (a) { a.classList.add('primary'); a.textContent = '中文合集（推荐）'; }
+  }
+})();
+</script>
 </body>
 </html>
