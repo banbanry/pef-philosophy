@@ -64,6 +64,81 @@ Three gives birth to the ten thousand things.<br/>
 
 <p>The map below is not a moon. It is only a finger pointing at the moon.</p>
 
+<svg viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="PEF reading map" style="width:100%;height:auto;margin:24px 0;background:#0f1115;border:1px solid #2a2d33;border-radius:12px;">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#e8e3d6"/>
+    </marker>
+    <marker id="arrowGold" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#c9a227"/>
+    </marker>
+  </defs>
+
+  <!-- Source: empty circle -->
+  <circle cx="450" cy="60" r="28" fill="none" stroke="#c9a227" stroke-width="2" stroke-dasharray="4 4"/>
+  <text x="450" y="65" text-anchor="middle" fill="#c9a227" font-size="14" font-family="Georgia, serif">Source</text>
+  <text x="450" y="108" text-anchor="middle" fill="#8a8a8a" font-size="11">no reference · prior to time · unpredicable</text>
+
+  <!-- P -> ΔV -> J -->
+  <rect x="250" y="160" width="120" height="56" rx="8" fill="#1a1d22" stroke="#e8e3d6" stroke-width="1.5"/>
+  <text x="310" y="185" text-anchor="middle" fill="#e8e3d6" font-size="16" font-family="Georgia, serif">P</text>
+  <text x="310" y="205" text-anchor="middle" fill="#8a8a8a" font-size="11">subject · time-slice</text>
+
+  <line x1="370" y1="188" x2="430" y2="188" stroke="#e8e3d6" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="400" y="178" text-anchor="middle" fill="#8a8a8a" font-size="11">produces</text>
+
+  <rect x="430" y="160" width="120" height="56" rx="8" fill="#1a1d22" stroke="#e8e3d6" stroke-width="1.5"/>
+  <text x="490" y="185" text-anchor="middle" fill="#e8e3d6" font-size="16" font-family="Georgia, serif">ΔV</text>
+  <text x="490" y="205" text-anchor="middle" fill="#8a8a8a" font-size="11">variable · potential difference</text>
+
+  <line x1="550" y1="188" x2="610" y2="188" stroke="#e8e3d6" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="580" y="178" text-anchor="middle" fill="#8a8a8a" font-size="11">lands as</text>
+
+  <rect x="610" y="160" width="120" height="56" rx="8" fill="#1a1d22" stroke="#e8e3d6" stroke-width="1.5"/>
+  <text x="670" y="185" text-anchor="middle" fill="#e8e3d6" font-size="16" font-family="Georgia, serif">J</text>
+  <text x="670" y="205" text-anchor="middle" fill="#8a8a8a" font-size="11">result · received state</text>
+
+  <!-- Source dashed to P -->
+  <line x1="450" y1="88" x2="330" y2="160" stroke="#c9a227" stroke-width="1.5" stroke-dasharray="5 5" marker-end="url(#arrowGold)"/>
+  <text x="360" y="120" fill="#c9a227" font-size="11">cross-section</text>
+
+  <!-- J to next P handoff -->
+  <path d="M670 216 C670 280, 310 280, 310 216" fill="none" stroke="#c9a227" stroke-width="1.5" marker-end="url(#arrowGold)"/>
+  <text x="490" y="295" text-anchor="middle" fill="#c9a227" font-size="12">handoff · append only · never rewrite</text>
+
+  <!-- Anchor box -->
+  <rect x="80" y="150" width="130" height="90" rx="8" fill="#111318" stroke="#c9a227" stroke-width="1.5"/>
+  <text x="145" y="175" text-anchor="middle" fill="#c9a227" font-size="14" font-family="Georgia, serif">External anchor</text>
+  <text x="145" y="198" text-anchor="middle" fill="#8a8a8a" font-size="11">π · physical invariant</text>
+  <text x="145" y="215" text-anchor="middle" fill="#8a8a8a" font-size="11">no self-certification</text>
+  <text x="145" y="232" text-anchor="middle" fill="#8a8a8a" font-size="11">local failure allowed</text>
+  <line x1="210" y1="195" x2="250" y2="190" stroke="#c9a227" stroke-width="1.5" marker-end="url(#arrowGold)"/>
+
+  <!-- Audit chain bottom -->
+  <text x="450" y="360" text-anchor="middle" fill="#8a8a8a" font-size="12">Audit chain L — append-only hash chain</text>
+  <g>
+    <rect x="180" y="380" width="110" height="44" rx="6" fill="#1a1d22" stroke="#2a2d33"/>
+    <text x="235" y="407" text-anchor="middle" fill="#e8e3d6" font-size="12">H₁</text>
+    <rect x="330" y="380" width="110" height="44" rx="6" fill="#1a1d22" stroke="#2a2d33"/>
+    <text x="385" y="407" text-anchor="middle" fill="#e8e3d6" font-size="12">H₂</text>
+    <rect x="480" y="380" width="110" height="44" rx="6" fill="#1a1d22" stroke="#2a2d33"/>
+    <text x="535" y="407" text-anchor="middle" fill="#e8e3d6" font-size="12">H₃</text>
+    <rect x="630" y="380" width="110" height="44" rx="6" fill="#1a1d22" stroke="#2a2d33"/>
+    <text x="685" y="407" text-anchor="middle" fill="#e8e3d6" font-size="12">Hₙ</text>
+    <line x1="290" y1="402" x2="330" y2="402" stroke="#8a8a8a" marker-end="url(#arrow)"/>
+    <line x1="440" y1="402" x2="480" y2="402" stroke="#8a8a8a" marker-end="url(#arrow)"/>
+    <line x1="590" y1="402" x2="630" y2="402" stroke="#8a8a8a" marker-end="url(#arrow)"/>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(80,460)">
+    <line x1="0" y1="0" x2="30" y2="0" stroke="#e8e3d6" stroke-width="1.5"/>
+    <text x="40" y="4" fill="#8a8a8a" font-size="11">generation side: P → ΔV → J</text>
+    <line x1="260" y1="0" x2="290" y2="0" stroke="#c9a227" stroke-width="1.5" stroke-dasharray="5 5"/>
+    <text x="300" y="4" fill="#8a8a8a" font-size="11">return / anchor side: π, signatures, audit</text>
+  </g>
+</svg>
+
 <h2>Nine stations</h2>
 <p>The nine essays are nine stations on this map, in three stages.</p>
 
